@@ -7,9 +7,6 @@
 
 import Foundation
 import SwiftUI
-//struct RocketsResponse: Codable {
-//    var result: [Rocket]
-//}
 
 struct RocketModel: Decodable, Identifiable {
     var id: Int?

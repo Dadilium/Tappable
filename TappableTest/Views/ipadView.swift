@@ -9,15 +9,7 @@ import SwiftUI
 
 struct ipadView: View {
     var rockets: [RocketModel]
-//    let count: Int
-//    let rowCount: Int
-//
-//    init(rockets: [RocketModel]) {
-//        self.rockets = rockets
-//        self.count = rockets.count
-//        self.rowCount = (self.count / 2).rounded(.up)
-//    }
-    
+
     var body: some View {
         ScrollView {
             let count = self.rockets.count
